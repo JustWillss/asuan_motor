@@ -1,0 +1,102 @@
+.warna1 {
+    background-color: #0082e6;
+}
+
+.warna2 {
+    background-color: #EEE3CB;
+}
+
+.warna3 {
+    background-color: #D7C0AE;
+}
+
+.warna4 {
+    background-color: #967E76;
+}
+
+.text-putih {
+    color: white;
+}
+
+.banner {
+    height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../foto/Background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.box-kategori {
+    height: 250px;
+}
+
+.kat-oli {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../foto/Background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.kat-banluar{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../foto/Background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.kat-bandalam{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../foto/Background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.box-kategori a{
+    text-decoration: none;
+    color: white;
+}
+
+.box-kategori a:hover {
+    color: #0082e6;
+}
+
+.card-harga {
+    font-size: 20px;
+}
+
+.image-box{
+    height: 250px;
+}
+
+.image-box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.contact{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.contact a{
+    color: white;
+}
+
+.banner-produk {
+    height: 30vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../foto/Background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.list-group a{
+    text-decoration: none;
+}
+
+.text-harga{
+    font-size: 22px;
+}
+
+.produk-lain {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}

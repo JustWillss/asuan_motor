@@ -1,0 +1,26 @@
+.warna1{
+    color:#000000;
+}
+
+.kotak {
+    border: solid;
+}
+
+.sum-kategori {
+    background-color: #008fff;
+    border-radius: 15px;
+
+}
+
+.sum-produk {
+    background-color: #008fff;
+    border-radius: 15px;
+}
+
+.decoration {
+    text-decoration: none;
+}
+
+form div {
+    margin-bottom: 10px;
+}
