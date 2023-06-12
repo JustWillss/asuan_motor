@@ -13,32 +13,36 @@ $jumlahkategori = mysqli_num_rows($querykategori);
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../fontawesome/css/fontawesome.min.css">
         <link rel="stylesheet" href="../css/bootstrap.min.css">
-        <link rel="stylesheet" href="../css/styleadmin.css">
+        <link rel="stylesheet" href="../css/styleadmin2.css">
         <link rel="website icon" type="png" href="../foto/icon.png">
-        <title>Kategori</title>
+        <title>Asuan Motor | Kategori</title>
     </head>
     <body>
         <?php require "navbar.php"; ?>
         <div class="container mt-5">
-        <div class="my-5 col-12 col-md-6">
-                    <h3>Asuan Motor | Tambah Kategori</h3>
-                    <form action="" method="post">
-                        <div>
-                            <label for="kategori">Kategori</label>
-                            <input
-                                type="text"
-                                id="kategori"
-                                name="kategori"
-                                placeholder="input nama kategori"
-                                class="form-control">
-                        </div>
-                        <div class="mt-3">
-                            <button class="btn btn-primary" type="submit" name="simpan_kategori"><i class="fas fa-save"></i> Simpan</button>
-                                        <a href="kategori.php" class="btn btn-secondary"><i class="fas fa-arrow-left"></i> Kembali</a>
-                                    </div>
-                    </form>
+            <div class="my-5 col-12 col-md-6">
+                <h3>Tambah Kategori</h3>
+                <form action="" method="post">
+                    <div>
+                        <label for="kategori">Kategori</label>
+                        <input
+                            type="text"
+                            id="kategori"
+                            name="kategori"
+                            placeholder="input nama kategori"
+                            class="form-control">
+                    </div>
+                    <div class="mt-3">
+                        <button class="btn btn-primary" type="submit" name="simpan_kategori">
+                            <i class="fas fa-save"></i>
+                            Simpan</button>
+                        <a href="kategori.php" class="btn btn-secondary">
+                            <i class="fas fa-arrow-left"></i>
+                            Kembali</a>
+                    </div>
+                </form>
 
-                    <?php
+                <?php
                     if(isset($_POST['simpan_kategori'])){
                         $kategori = htmlspecialchars($_POST['kategori']);
 
@@ -47,16 +51,16 @@ $jumlahkategori = mysqli_num_rows($querykategori);
 
                         if ($jumlahDataKategoriBaru > 0){
                             ?>
-                    <div class="alert alert-warning mt-3" role="alert">Kategori Sudah Ada</div>
-                <?php
+                <div class="alert alert-warning mt-3" role="alert">Kategori Sudah Ada</div>
+            <?php
                         }
                         else{
                             $querySimpan = mysqli_query($conn, "INSERT INTO kategori (nama) VALUES ('$kategori')");
 
                             if($querySimpan){
                                 ?>
-                                <meta http-equiv="refresh" content="0; url=kategori.php"/>
-                                <?php
+                <meta http-equiv="refresh" content="0; url=kategori.php"/>
+            <?php
                             }
                             else {
                                 echo mysqli_error($conn);
@@ -64,7 +68,7 @@ $jumlahkategori = mysqli_num_rows($querykategori);
                         }
                     }
                     ?>
-                </div>
-                <script src="../fontawesome/all.min.js"></script>
-                </body>
-                </html>
+            </div>
+            <script src="../fontawesome/all.min.js"></script>
+        </body>
+    </html>

@@ -25,7 +25,7 @@ function generateRandomString($length = 10) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../fontawesome/css/fontawesome.min.css">
         <link rel="stylesheet" href="../css/bootstrap.min.css">
-        <link rel="stylesheet" href="../css/styleadmin.css">
+        <link rel="stylesheet" href="../css/styleadmin2.css">
         <link rel="website icon" type="png" href="../foto/icon.png">
         <title>Asuan Motor | Tambah Produk</title>
     </head>
@@ -78,7 +78,7 @@ function generateRandomString($length = 10) {
                         <option value="habis">Habis</option>
                     </select>
                 </div>
-                <div>
+                <div class="mt-2">
                     <button type="submit" class="btn btn-primary" name="simpan"><i class="fas fa-save"></i> Simpan</button>
                     <a href="produk.php" class="btn btn-secondary"><i class="fas fa-arrow-left"></i> Kembali</a>
                 </div>
