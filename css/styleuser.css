@@ -30,19 +30,19 @@
 }
 
 .kat-oli {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../foto/Background.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../foto/oliback.jpg');
     background-size: cover;
     background-position: center;
 }
 
 .kat-banluar{
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../foto/Background.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../foto/banback.jpg');
     background-size: cover;
     background-position: center;
 }
 
 .kat-bandalam{
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../foto/Background.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../foto/dalambg.jpg');
     background-size: cover;
     background-position: center;
 }

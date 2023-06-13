@@ -10,7 +10,7 @@ $queryProduk = mysqli_query($conn, "SELECT id, nama, harga, foto, detail FROM pr
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/styleuser1.css">
+        <link rel="stylesheet" href="css/styleuser.css">
         <link rel="stylesheet" href="fontawesome/css/fontawesome.min.css">
         <link rel="website icon" type="png" href="foto/icon.png">
         <title>Asuan Motor | Home</title>
@@ -50,7 +50,7 @@ $queryProduk = mysqli_query($conn, "SELECT id, nama, harga, foto, detail FROM pr
                         <div
                             class="box-kategori kat-oli d-flex justify-content-center align-items-center">
                             <h4 class="">
-                                <a href="produk.php?kategori=Oli Mesin">A</a>
+                                <a href="produk.php?kategori=Oli Mesin">Oli Mesin</a>
                             </h4>
                         </div>
                     </div>
@@ -58,7 +58,7 @@ $queryProduk = mysqli_query($conn, "SELECT id, nama, harga, foto, detail FROM pr
                         <div
                             class="box-kategori kat-banluar d-flex justify-content-center align-items-center">
                             <h4 class="">
-                                <a href="produk.php?kategori=Ban Luar">B</a>
+                                <a href="produk.php?kategori=Ban Luar">Ban Luar</a>
                             </h4>
                         </div>
                     </div>
@@ -66,7 +66,7 @@ $queryProduk = mysqli_query($conn, "SELECT id, nama, harga, foto, detail FROM pr
                         <div
                             class="box-kategori kat-bandalam d-flex justify-content-center align-items-center">
                             <h4 class="">
-                                <a href="produk.php?kategori=Ban Dalam">C</a>
+                                <a href="produk.php?kategori=Ban Dalam">Ban Dalam</a>
                             </h4>
                         </div>
                     </div>

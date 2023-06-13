@@ -4,7 +4,7 @@ include "connection.php";
 
 $username = $_POST['username'];
 $password = md5($_POST['password']);//untuk hashing
-
+var_dump($password);
 
 $sql = "SELECT * from users where username='$username' and password='$password'";
 $query = mysqli_query($conn, $sql);

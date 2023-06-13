@@ -1,8 +1,8 @@
 <?php
-    $user = "root";
+    $user = "n1566458_asuan_motor";
     $server = "localhost";
-    $password = "";
-    $db = "asuan_motor";
+    $password = "ED2XbfWTvFdZ";
+    $db = "n1566458_asuan_motor";
 
     $conn = mysqli_connect($server, $user, $password, $db);
     if(!$conn) {
